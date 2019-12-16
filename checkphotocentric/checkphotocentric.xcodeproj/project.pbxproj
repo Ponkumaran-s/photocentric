@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E36A592239F948F00F7F949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A591239F948F00F7F949 /* AppDelegate.swift */; };
+		5E36A594239F948F00F7F949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A593239F948F00F7F949 /* SceneDelegate.swift */; };
+		5E36A596239F948F00F7F949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A595239F948F00F7F949 /* ViewController.swift */; };
+		5E36A599239F948F00F7F949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E36A597239F948F00F7F949 /* Main.storyboard */; };
+		5E36A59B239F949000F7F949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E36A59A239F949000F7F949 /* Assets.xcassets */; };
+		5E36A59E239F949000F7F949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E36A59C239F949000F7F949 /* LaunchScreen.storyboard */; };
+		5E36A5A9239F949000F7F949 /* checkphotocentricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5A8239F949000F7F949 /* checkphotocentricTests.swift */; };
+		5E36A5B4239F949000F7F949 /* checkphotocentricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5B3239F949000F7F949 /* checkphotocentricUITests.swift */; };
+		5E36A5D5239F967E00F7F949 /* PhotoCenticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5D4239F967E00F7F949 /* PhotoCenticTableViewCell.swift */; };
+		5E36A5D7239F969B00F7F949 /* PhotoCenticCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5D6239F969B00F7F949 /* PhotoCenticCollectionViewCell.swift */; };
+		5E36A5D9239F96DD00F7F949 /* Customlayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5D8239F96DD00F7F949 /* Customlayout.swift */; };
+		5E36A5DB239F994800F7F949 /* PhotoCentricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5DA239F994800F7F949 /* PhotoCentricViewController.swift */; };
+		5E36A5DE23A0F8B600F7F949 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36A5DD23A0F8B600F7F949 /* dataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E36A5A5239F949000F7F949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E36A586239F948E00F7F949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E36A58D239F948E00F7F949;
+			remoteInfo = checkphotocentric;
+		};
+		5E36A5B0239F949000F7F949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E36A586239F948E00F7F949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E36A58D239F948E00F7F949;
+			remoteInfo = checkphotocentric;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E36A58E239F948E00F7F949 /* checkphotocentric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkphotocentric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E36A591239F948F00F7F949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E36A593239F948F00F7F949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E36A595239F948F00F7F949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E36A598239F948F00F7F949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E36A59A239F949000F7F949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E36A59D239F949000F7F949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E36A59F239F949000F7F949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E36A5A4239F949000F7F949 /* checkphotocentricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkphotocentricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E36A5A8239F949000F7F949 /* checkphotocentricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkphotocentricTests.swift; sourceTree = "<group>"; };
+		5E36A5AA239F949000F7F949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E36A5AF239F949000F7F949 /* checkphotocentricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkphotocentricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E36A5B3239F949000F7F949 /* checkphotocentricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkphotocentricUITests.swift; sourceTree = "<group>"; };
+		5E36A5B5239F949000F7F949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E36A5D4239F967E00F7F949 /* PhotoCenticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCenticTableViewCell.swift; sourceTree = "<group>"; };
+		5E36A5D6239F969B00F7F949 /* PhotoCenticCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCenticCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E36A5D8239F96DD00F7F949 /* Customlayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customlayout.swift; sourceTree = "<group>"; };
+		5E36A5DA239F994800F7F949 /* PhotoCentricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCentricViewController.swift; sourceTree = "<group>"; };
+		5E36A5DD23A0F8B600F7F949 /* dataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E36A58B239F948E00F7F949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36A5A1239F949000F7F949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36A5AC239F949000F7F949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E36A585239F948E00F7F949 = {
+			isa = PBXGroup;
+			children = (
+				5E36A5D1239F954E00F7F949 /* New Group */,
+				5E36A590239F948E00F7F949 /* checkphotocentric */,
+				5E36A5A7239F949000F7F949 /* checkphotocentricTests */,
+				5E36A5B2239F949000F7F949 /* checkphotocentricUITests */,
+				5E36A58F239F948E00F7F949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E36A58F239F948E00F7F949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E36A58E239F948E00F7F949 /* checkphotocentric.app */,
+				5E36A5A4239F949000F7F949 /* checkphotocentricTests.xctest */,
+				5E36A5AF239F949000F7F949 /* checkphotocentricUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E36A590239F948E00F7F949 /* checkphotocentric */ = {
+			isa = PBXGroup;
+			children = (
+				5E36A595239F948F00F7F949 /* ViewController.swift */,
+				5E36A591239F948F00F7F949 /* AppDelegate.swift */,
+				5E36A593239F948F00F7F949 /* SceneDelegate.swift */,
+				5E36A597239F948F00F7F949 /* Main.storyboard */,
+				5E36A59A239F949000F7F949 /* Assets.xcassets */,
+				5E36A59C239F949000F7F949 /* LaunchScreen.storyboard */,
+				5E36A59F239F949000F7F949 /* Info.plist */,
+			);
+			path = checkphotocentric;
+			sourceTree = "<group>";
+		};
+		5E36A5A7239F949000F7F949 /* checkphotocentricTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E36A5A8239F949000F7F949 /* checkphotocentricTests.swift */,
+				5E36A5AA239F949000F7F949 /* Info.plist */,
+			);
+			path = checkphotocentricTests;
+			sourceTree = "<group>";
+		};
+		5E36A5B2239F949000F7F949 /* checkphotocentricUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E36A5B3239F949000F7F949 /* checkphotocentricUITests.swift */,
+				5E36A5B5239F949000F7F949 /* Info.plist */,
+			);
+			path = checkphotocentricUITests;
+			sourceTree = "<group>";
+		};
+		5E36A5D1239F954E00F7F949 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5E36A5DA239F994800F7F949 /* PhotoCentricViewController.swift */,
+				5E36A5D4239F967E00F7F949 /* PhotoCenticTableViewCell.swift */,
+				5E36A5D6239F969B00F7F949 /* PhotoCenticCollectionViewCell.swift */,
+				5E36A5D8239F96DD00F7F949 /* Customlayout.swift */,
+				5E36A5DD23A0F8B600F7F949 /* dataModel.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E36A58D239F948E00F7F949 /* checkphotocentric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36A5B8239F949000F7F949 /* Build configuration list for PBXNativeTarget "checkphotocentric" */;
+			buildPhases = (
+				5E36A58A239F948E00F7F949 /* Sources */,
+				5E36A58B239F948E00F7F949 /* Frameworks */,
+				5E36A58C239F948E00F7F949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = checkphotocentric;
+			productName = checkphotocentric;
+			productReference = 5E36A58E239F948E00F7F949 /* checkphotocentric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E36A5A3239F949000F7F949 /* checkphotocentricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36A5BB239F949000F7F949 /* Build configuration list for PBXNativeTarget "checkphotocentricTests" */;
+			buildPhases = (
+				5E36A5A0239F949000F7F949 /* Sources */,
+				5E36A5A1239F949000F7F949 /* Frameworks */,
+				5E36A5A2239F949000F7F949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E36A5A6239F949000F7F949 /* PBXTargetDependency */,
+			);
+			name = checkphotocentricTests;
+			productName = checkphotocentricTests;
+			productReference = 5E36A5A4239F949000F7F949 /* checkphotocentricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E36A5AE239F949000F7F949 /* checkphotocentricUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E36A5BE239F949000F7F949 /* Build configuration list for PBXNativeTarget "checkphotocentricUITests" */;
+			buildPhases = (
+				5E36A5AB239F949000F7F949 /* Sources */,
+				5E36A5AC239F949000F7F949 /* Frameworks */,
+				5E36A5AD239F949000F7F949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E36A5B1239F949000F7F949 /* PBXTargetDependency */,
+			);
+			name = checkphotocentricUITests;
+			productName = checkphotocentricUITests;
+			productReference = 5E36A5AF239F949000F7F949 /* checkphotocentricUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E36A586239F948E00F7F949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ponkumar's Mac";
+				TargetAttributes = {
+					5E36A58D239F948E00F7F949 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					5E36A5A3239F949000F7F949 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 5E36A58D239F948E00F7F949;
+					};
+					5E36A5AE239F949000F7F949 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 5E36A58D239F948E00F7F949;
+					};
+				};
+			};
+			buildConfigurationList = 5E36A589239F948E00F7F949 /* Build configuration list for PBXProject "checkphotocentric" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E36A585239F948E00F7F949;
+			productRefGroup = 5E36A58F239F948E00F7F949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E36A58D239F948E00F7F949 /* checkphotocentric */,
+				5E36A5A3239F949000F7F949 /* checkphotocentricTests */,
+				5E36A5AE239F949000F7F949 /* checkphotocentricUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E36A58C239F948E00F7F949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36A59E239F949000F7F949 /* LaunchScreen.storyboard in Resources */,
+				5E36A59B239F949000F7F949 /* Assets.xcassets in Resources */,
+				5E36A599239F948F00F7F949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36A5A2239F949000F7F949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36A5AD239F949000F7F949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E36A58A239F948E00F7F949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36A5D5239F967E00F7F949 /* PhotoCenticTableViewCell.swift in Sources */,
+				5E36A5D7239F969B00F7F949 /* PhotoCenticCollectionViewCell.swift in Sources */,
+				5E36A5D9239F96DD00F7F949 /* Customlayout.swift in Sources */,
+				5E36A596239F948F00F7F949 /* ViewController.swift in Sources */,
+				5E36A592239F948F00F7F949 /* AppDelegate.swift in Sources */,
+				5E36A5DE23A0F8B600F7F949 /* dataModel.swift in Sources */,
+				5E36A594239F948F00F7F949 /* SceneDelegate.swift in Sources */,
+				5E36A5DB239F994800F7F949 /* PhotoCentricViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36A5A0239F949000F7F949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36A5A9239F949000F7F949 /* checkphotocentricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E36A5AB239F949000F7F949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E36A5B4239F949000F7F949 /* checkphotocentricUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E36A5A6239F949000F7F949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E36A58D239F948E00F7F949 /* checkphotocentric */;
+			targetProxy = 5E36A5A5239F949000F7F949 /* PBXContainerItemProxy */;
+		};
+		5E36A5B1239F949000F7F949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E36A58D239F948E00F7F949 /* checkphotocentric */;
+			targetProxy = 5E36A5B0239F949000F7F949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E36A597239F948F00F7F949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E36A598239F948F00F7F949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E36A59C239F949000F7F949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E36A59D239F949000F7F949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E36A5B6239F949000F7F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E36A5B7239F949000F7F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E36A5B9239F949000F7F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = checkphotocentric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ponkumar-s-Mac.checkphotocentric";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E36A5BA239F949000F7F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = checkphotocentric/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ponkumar-s-Mac.checkphotocentric";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E36A5BC239F949000F7F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = checkphotocentricTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ponkumar-s-Mac.checkphotocentricTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkphotocentric.app/checkphotocentric";
+			};
+			name = Debug;
+		};
+		5E36A5BD239F949000F7F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = checkphotocentricTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ponkumar-s-Mac.checkphotocentricTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkphotocentric.app/checkphotocentric";
+			};
+			name = Release;
+		};
+		5E36A5BF239F949000F7F949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = checkphotocentricUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ponkumar-s-Mac.checkphotocentricUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = checkphotocentric;
+			};
+			name = Debug;
+		};
+		5E36A5C0239F949000F7F949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = checkphotocentricUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ponkumar-s-Mac.checkphotocentricUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = checkphotocentric;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E36A589239F948E00F7F949 /* Build configuration list for PBXProject "checkphotocentric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36A5B6239F949000F7F949 /* Debug */,
+				5E36A5B7239F949000F7F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36A5B8239F949000F7F949 /* Build configuration list for PBXNativeTarget "checkphotocentric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36A5B9239F949000F7F949 /* Debug */,
+				5E36A5BA239F949000F7F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36A5BB239F949000F7F949 /* Build configuration list for PBXNativeTarget "checkphotocentricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36A5BC239F949000F7F949 /* Debug */,
+				5E36A5BD239F949000F7F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E36A5BE239F949000F7F949 /* Build configuration list for PBXNativeTarget "checkphotocentricUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E36A5BF239F949000F7F949 /* Debug */,
+				5E36A5C0239F949000F7F949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E36A586239F948E00F7F949 /* Project object */;
+}
